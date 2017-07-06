@@ -1,3 +1,7 @@
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+              , destfile = 'Dataset.zip')
+unzip("Dataset.zip")
+
 #Part 1: merging test and training data sets
 #From working directory
 #read in common info
