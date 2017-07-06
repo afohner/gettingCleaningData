@@ -7,7 +7,7 @@ The dataset includes the following files:
 
 - 'README.txt'
 
-- 'activity summary.txt': Is the cleaned data set with each acceleration metric mean and standard deviation, summarized by activity.
+- 'activity summary.txt': Is the cleaned data set with each acceleration metric mean and standard deviation, summarized by activity, for each subject included in the study.
 
 
 Notes: 
