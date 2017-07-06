@@ -17,22 +17,22 @@ Notes:
 
 Analysis Performed:
 =====
--Part 1: merging test and training data sets
--read in information from original data sets
--combine the data to make each test and training data set have appropriate activity and subject labels
+- Part 1: merging test and training data sets
+- read in information from original data sets
+- combine the data to make each test and training data set have appropriate activity and subject labels
 - merge the training and test data sets
 
 
--part 2: extracting mean and standard dev
+- part 2: extracting mean and standard dev
 - remove duplicated columns
 - keep only the columns that include either "mean" or "std", and that have the subject and activity IDs
 
--Part 3: add descriptive names to activities
--replace 1-5 with names of activity in column pertaining to the activity
+- Part 3: add descriptive names to activities
+- replace 1-5 with names of activity in column pertaining to the activity
 
 
 
--Part 4 appropriately label variable names -- acceleration measures are already done, so just changes the column heading to activity
+- Part 4 appropriately label variable names -- acceleration measures are already done, so just changes the column heading to activity
 
 
--Part 5: create a second tidy dataset from dataset in part 4 with average of each variable for each activity and subject
+- Part 5: create a second tidy dataset from dataset in part 4 with average of each variable for each activity and subject
